@@ -1,0 +1,138 @@
+#registerForm,#loginForm{
+    z-index: 5;
+    position: fixed;
+    width: 33%;
+    top: 40px;
+    right: 0px;
+    display: none;
+
+}
+#insertForm,#updateForm {
+    z-index: 5;
+    position: fixed;
+    width: 33%;
+    top: 20px;
+    right: 0px;
+    display: none;
+}
+
+.remove_img {
+    position: relative;
+    top: -23px;
+    right: -190px;
+}
+.remove_img:hover {
+    cursor: pointer;
+}
+.close_form {
+    position: relative;
+    top: -23px;
+    right: -190px;
+}
+.close_form:hover {
+    cursor: pointer;
+}
+.close_form_update {
+    position: relative;
+    top: -23px;
+    right: -190px;
+}
+.update_korisnika:hover {
+    cursor: pointer;
+}
+.close_form_update:hover {
+    cursor: pointer;
+}
+.kat:hover {
+    cursor: pointer !important;
+}
+.kat.active {
+    background-color:#49c4af;
+    color: white;
+}
+.text_kat:hover {
+    cursor: default !important;
+}
+.nicdark_color_greydark.nicdark_first_font.course_font {
+    font-size: 17px !important;
+}
+
+.course_desciption_short {
+    width: 330px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#delete_kurs_img:hover {
+    cursor: pointer;
+}
+.delete_korisnika:hover {
+    cursor: pointer;
+}
+#popupInsert {
+    position: fixed;
+    right: 0;
+    width: 90px;
+    height: 60px;
+    background-color: #49c4af;
+    color: white;
+    top: 243px;
+    border-radius: 3px;
+    text-align: center;
+}
+#popupInsert p {
+    color: white;
+}
+#popupInsert:hover {
+    cursor: pointer;
+}
+#popupLogs {
+    position: fixed;
+    right: 0;
+    width: 90px;
+    height: 60px;
+    background-color: #49c4af;
+    color: white;
+    top: 310px;
+    border-radius: 3px;
+    text-align: center;
+}
+#popupLogs p a {
+    color: white;
+}
+#popupLogs:hover {
+    cursor: pointer;
+}
+.linkPaginacija.in-active {
+    background-color: transparent;
+    color: #727475;
+}
+.linkPaginacija.active {
+    background-color: #666;
+    color: #fff;
+}
+.linkPaginacija:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+#logTable {
+    max-height: 410px;
+    overflow-y: auto;
+}
+#logTable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+#logTable::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+#logTable::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+#logTable::-webkit-scrollbar {
+    width: 10px;
+}
+.status {
+    font-size: 13px;
+    font-weight: bold;
+}
